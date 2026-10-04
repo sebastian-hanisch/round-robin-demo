@@ -192,7 +192,7 @@ denen jedes eine Runde bildet. Jede Kante (= jedes Spielerpaar) kommt in genau e
 **Zirkelmethode.** Ein Spieler ist fix, die restlichen $n-1$ (stets ungerade) tragen Labels
 $0, \dots, n-2$. Der wirksame Rundenindex $R$ läuft mit Schrittweite $k = \lceil (n-1)/2 \rceil$ durch alle
 Labels modulo $n-1$ (Schrittweite und Labelzahl sind teilerfremd, deshalb wird jedes Label genau einmal
-getroffen). Je Runde spielt der fixe Spieler gegen Label $R$, und für $i = 1, \dots, (n-3)/2$ wird Label
+getroffen). Je Runde spielt der fixe Spieler gegen Label $R$, und für $i = 1, \dots, (n-2)/2$ wird Label
 $(R-i) \bmod (n-1)$ gegen Label $(R+i) \bmod (n-1)$ gepaart - macht $\lfloor n/2 \rfloor$ Paarungen je Runde.
 
 **Ungerade Teilnehmerzahl.** Ein Dummy-Spieler wird ergänzt (Tafelgröße $n+1$); wer in einer Runde gegen ihn
@@ -215,6 +215,6 @@ st.markdown("---")
 
 st.caption(
     "Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – "
-    "Operations Research und Machine Learning. Interesse an einer maßgeschneiderten Lösung für "
-    "Ihr Unternehmen? [Kontakt aufnehmen](https://sebastianhanisch.net/kontakt.html)"
+    "Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). "
+    "Mehr zur Reihe: [Turnierplanung: 7 Wege zum Turnierplan](https://sebastianhanisch.net/konzepte-turnierplanung.html)."
 )

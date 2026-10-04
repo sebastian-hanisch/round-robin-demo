@@ -9,12 +9,12 @@ mechanisch – sie ist der Algorithmus hinter den **Berger-Tafeln**, die die FID
 Diese Demo baut den Spielplan **exakt** nach dieser Vorschrift, inklusive Farbausgleich (Weiß/Schwarz) und
 Freilos-Regel bei ungerader Teilnehmerzahl.
 
-Geplante Nachfolger dieser Linie:
+Nachfolger dieser Linie (beide inzwischen gebaut):
 
 ```
 Rundenturnier (Wurzel, dieses Stück)
- ├─ Schweizer System (FIDE-Dutch-Regelwerk, volle C1-C21-Kriterienhierarchie)   [geplant]
- └─ K.-o.-System + Setzliste (Bracket-Seeding)                                  [geplant]
+ ├─ Schweizer System (FIDE-Dutch-Regelwerk, volle C1-C21-Kriterienhierarchie)   [gebaut: schweizer-system-demo]
+ └─ K.-o.-System + Setzliste (Bracket-Seeding)                                  [gebaut: bracket-seeding-demo]
 ```
 
 ## Ergebnis (Zahlen aus den Tests)
@@ -105,6 +105,4 @@ jeweils neuesten Bibliotheksversionen.
 
 ---
 
-Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research
-und Machine Learning. Interesse an einer maßgeschneiderten Lösung für Ihr Unternehmen?
-[Kontakt aufnehmen](https://sebastianhanisch.net/kontakt.html)
+Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zur Reihe: [Turnierplanung: 7 Wege zum Turnierplan](https://sebastianhanisch.net/konzepte-turnierplanung.html).
